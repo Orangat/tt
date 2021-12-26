@@ -122,7 +122,6 @@ export default {
       this.calculateLimitBottom();
 
       const amount = event.keyCode === 39 ? 2 : -2;
-      console.log(amount)
       this.moveFallingFigure(amount)
     }
   },
